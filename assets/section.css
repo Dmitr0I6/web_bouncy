@@ -1,0 +1,314 @@
+
+/*Section Impressed*/
+
+.section_impressed{
+    padding: 80px 0px;
+    background-size:cover ;
+    background-image: url(images/impressed.png);
+
+    background-repeat: no-repeat;
+    
+}
+.section_impressed_inner{
+    position: relative;
+}
+.white{
+    color: #fff;
+}
+.impressed_img{
+    position:absolute;
+    right: 50px;
+    top:-150px;
+}
+
+
+
+
+
+
+
+
+
+
+/*section our serices*/
+
+.section_serv_inner{
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    gap:50px;
+}
+.side_icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:15px;
+}
+.serv_icon_cont{
+    display: block;
+    background-color: lightgray;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    position: relative;
+}
+.serv_icon{
+    position: absolute;
+    width:70%;
+    height: 70%;
+    left: 15%;
+    bottom: 15%;
+}
+.serv_text_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    width: 400px;
+    height: 400px;
+}
+.serv_text{
+
+}
+.infographic{
+    width: 530px;
+    height: 400px;
+    display: flex;
+    justify-content:space-between; 
+    flex-wrap: wrap;
+}
+.serv_object{
+    display:flex;
+    height: 154px;
+    width: 154px;
+    border-radius: 77px;
+    background: conic-gradient(rgb(26,183,151) 80%,lightgray 20%);
+    margin-top: 100px;
+    margin-bottom: 0;
+    
+}
+.serv_object_inner{
+    height: 144px;
+    width: 144px;
+    border-radius: 72px;
+    background-color: #fff;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}  
+.serv_object_inner h3{
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+}
+.object_subtitle{
+    width: 154px;
+    text-align: center;
+    margin: 0;
+}
+.object_subtitle h4{
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+/*contact section*/
+.contact_us_section{
+    padding: 60px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background:  url(images/Try\ our\ template.jpg);
+}
+.contact_us_inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+}
+.contact__text{
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    margin: 0 auto;
+}
+.contact_btn{
+    width: 150px;
+    height: 36px;
+    color: #fff;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 18px;
+    font-weight: 400;
+    font-size: 16px;
+    z-index: 10;
+    margin: 0 auto;
+    transition: background-color 0.2s linear;
+}
+.contact_btn:hover{
+    background-color: rgba(26, 183, 152, 0.7);
+}
+
+
+/*testimonials section*/
+
+.testimonials_section{
+    background-color: rgb(240, 240, 240);
+    padding: 60px 0;
+}
+.testimonials_slider{
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+    width: 100%;
+    height: 360px;
+    position: relative;
+    background-color: #fff;
+}
+.testimonials_slide{
+    
+    width: 100%;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.testimonials_inner{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 65%;
+}
+.testimonials_photo{
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: brown;
+    margin: 0 auto;
+}
+.customer__name{
+    text-transform: uppercase;
+    color: rgb(26,183,151);
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 25px;
+    
+}
+.customer__company{
+    text-transform: uppercase;
+    color: lightgray;
+    font-size: 18px;
+    font-weight: 500;
+    margin:0;
+}
+
+
+
+/*section with horizontal images*/
+.section_inline_images{
+    margin-top: 60px;
+}
+.img1_container{
+    width: 600px;
+    height: 300px;
+    background-image: url(../assets/images/linear_first.png);
+    background-size: cover;
+}
+.img2_container{
+    background-image: url(../assets/images/linear2_img.png);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.img3_container{
+    background-image: url(../assets/images/linear_third.png);
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.link_on_img{
+    z-index: 100;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    margin: auto;
+    transition: color .2s linear;
+}
+.link_on_img:hover{
+    color: rgb(26,183,151);
+}
+.first_line{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.green_bar_container{
+    width: 1200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background: url(images/Try\ our\ template.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    position: relative;
+    gap: 150px;
+}
+
+
+.submit_info{
+    color: #fff;
+    font-size: 16px;;
+    
+    margin-left: 100px;
+    z-index: 10;
+    margin: auto 0;
+}
+.section_btn1{
+    width: 150px;
+    height: 30px;
+    color: #fff;
+    border-color: #fff;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    z-index: 10;
+    margin: auto 0;
+    transition: background-color 0.2s linear;
+}
+.section_btn1:hover{
+    background-color: rgba(26, 183, 152, 0.7);
+}
+
+.black_mask{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: #000000;
+    opacity: 0.7;
+}
+.green_mask{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(26,183,151);
+    opacity: 0.6;
+}

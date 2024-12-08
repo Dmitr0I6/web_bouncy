@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+.container{
+    width:100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+/* base section*/
+.section{
+    padding: 80px 0px;
+}
+.section__about{
+    padding: 80px 0px;
+    background-color: rgb(240, 240, 240);
+}
+.section_header{
+    
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    margin:0 auto 40px;
+}
+.section_title{
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0 auto 20px; 
+}
+
+.icons_about{
+    display: flex;
+    margin: 80px auto;
+    justify-content: center;
+    
+}
+.icon_1{
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgba(26, 183, 152, 0.3);
+    margin:0 30px;
+}
+.icon_2{
+    
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgb(26,183,151);
+}
+.icon_3{
+    
+    display: block;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgb(26,183,151);
+    margin:0 30px;
+}
+.icon_inner{
+    height: 45px;
+    width: 45px;
+    margin: 7.5px 7.5px;    
+}
+.icon_inner:hover{
+    transform: scale(1.1);
+}
+
+
+.section_text_header{
+    font-size: 24px;
+    font-weight: 600;
+}
+.section1_text{
+    display: flex;
+    justify-content: space-between;
+}
+.section_text{
+    
+    width: 45%;
+    font-size: 16px;
+    margin-bottom: 60px;
+}
+.strong_green{
+    font-weight: 500;
+    color: rgb(26,183,151);
+}
+
+

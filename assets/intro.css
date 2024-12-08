@@ -1,0 +1,136 @@
+/*intro*/
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background: url("../assets/images/intro_background.png") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    z-index: 0;
+        
+}
+.intro_title{
+    position: relative;
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+    z-index: 3;
+    letter-spacing: 0.15em;
+}
+
+.sub_title{
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.intro_inner{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    height: 100vh;
+    margin: 0 auto;
+}
+.arrow__container{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    bottom:7%;
+}
+.intro_arrow{
+    
+    bottom: 0;
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: rgb(26,183,151);
+    z-index: 10;
+    position: relative;
+    transition: background-color 0.2s linear;
+}
+.intro_arrow::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 8px;
+    left: 13px;
+    width: 20px;
+    height: 20px;
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
+    transform: rotate(135deg);
+}   
+.intro_arrow:hover{
+    background-color: rgba(26, 183, 152, 0.4);
+}
+
+/*header*/
+.header{
+    position: absolute;
+    padding-top: 2%;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header_logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+
+}
+.nav{
+    display: flex;
+    gap: 10px;
+}
+
+.nav_link{
+    display: inline;
+    vertical-align: top;
+    margin: 12px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s linear;
+    position: relative;
+    font-size: 16px;
+}
+
+.nav_link:after{
+    content: "";
+    display: block;
+    width: 140%;
+    height: 115%;
+    background-color: transparent;
+    border-style:solid;
+    border-width: 2px;
+    border-color:#fff;
+    border-radius: 15px;
+    opacity: 0;
+    position: absolute;
+    top: -12%;
+    left: -23%;
+    z-index: 1;
+    transition: opacity 0.2s linear;
+}
+.nav:first-child::after{
+    opacity: 1;
+}
+.nav_link:hover:after{
+    opacity: 1;
+}
+
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

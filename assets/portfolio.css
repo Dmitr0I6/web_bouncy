@@ -1,0 +1,232 @@
+/*Portfolio styles*/
+.portfolio_section{
+    padding: 80px 0px;
+    background-color:rgb(240, 240, 240);
+}
+.portfolio_nav{
+    display: flex;
+    justify-content: center;
+    gap:20px
+
+}
+.portfolio_link{
+    margin: 0;
+    text-decoration: none;
+    font-size: 16px;
+    color:black;
+    position: relative;
+    transition: color 0.2s linear;
+}
+.portfolio_link:hover{
+    color: rgb(26,183,151);
+}
+.active_portfolio_link::after{
+    position: absolute;
+    display: block;
+    content: "";
+    width:80%;
+    background-color: rgb(26,183,151);
+    height: 3px;
+    top:100%;
+    right: 10%;
+}
+
+
+
+.portfolio_inner{
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 40px 0;
+    gap:20px;
+    padding: 0;
+}
+.create_aplication{
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+    background-image: url(images/Try\ our\ template.jpg);
+    position: relative;
+    gap:40px;
+}
+.img_portfolio_big{
+    position: relative;
+    height: 350px;
+    width: 270px;
+    background-color: bisque;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img_portfolio_small{
+    height: 260px;
+    width: 270px;
+    background-color: bisque;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.section_btn2{
+    width: 150px;
+    height: 36px;
+    color: #fff;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    border-color: #fff;
+    border-style: solid;
+    border-radius: 18px;
+    font-weight: 400;
+    font-size: 16px;
+    z-index: 10;
+    margin: 0 auto;
+    transition: background-color 0.2s linear;
+}
+.section_btn2:hover{
+    background-color: rgba(26, 183, 152, 0.7);
+}
+.project_info{
+    color: #fff;
+    font-size: 16px;
+    z-index: 10;
+    margin: 0 auto;
+    
+}
+
+
+
+
+
+
+/*portfolio hover*/
+.img__big__onhover__inner{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:30px;
+    padding-left: 10%;
+}
+.img__small__onhover__inner{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:20px;
+    padding-left: 10%;
+}
+.portfolio__img__title{
+    opacity: 1;
+    color: rgb(26,183,151);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 20px;
+    position: relative;
+}
+.portfolio__img__title::after{
+    position: absolute;
+    top:110%;
+    display: block;
+    content: "";
+    width: 10%;
+    height: 2px;
+    background-color: rgb(26,183,151);
+}
+.img__discription{
+    color: #fff;
+    width: 80%;
+}
+.buttons__container{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.copy_link_button{
+    cursor: pointer;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-image: url(images/link_7g2yzy1p7yog.svg);
+}
+.img__small__onhover{
+    position: relative;
+    width: 270px;
+    height: 260px;
+    opacity: 0;
+    transition: opacity 0.3s linear;
+}
+.img__big__onhover{
+    position: relative;
+    width: 270px;
+    height: 350px;
+    opacity: 0;
+    transition: opacity 0.3s linear;
+}
+.img__small__onhover:hover{
+    opacity: 1;
+}
+.img__big__onhover:hover{
+    opacity: 1;
+}
+.like__button{
+    cursor: pointer;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background:transparent;
+    background-image: url(images/heartfilled.svg);
+    background-size: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.black_mask_portfolio{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
