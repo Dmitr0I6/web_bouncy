@@ -4,23 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="i width=device-width">
     <title> Bouncy - the code cafe</title>
-    <link rel="icon" type="image/png" href="assets/images/icons8-b-50.png">
+    <!--<link rel="icon" type="image/png" href="assets/images/icons8-b-50.png">
     <link rel = "stylesheet" type="text/css" href="assets/style.css"/>
     <link rel = "stylesheet" type="text/css" href="assets/section.css">
     <link rel = "stylesheet" type="text/css" href="assets/intro.css"/>
     <link rel = "stylesheet" type="text/css" href="assets/portfolio.css"/>
     <link rel = "stylesheet" type="text/css" href="assets/footer.css"/>
     <link rel = "stylesheet" type="text/css" href="assets/news.css"/>
-    <link rel = "stylesheet" type="text/css" href="assets/team.css"/>
+    <link rel = "stylesheet" type="text/css" href="assets/team.css"/>-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+
+    <link rel = "stylesheet" media="screen and (max-width: 600px)" href="assets/max-width-500.css">
+    <link rel = "stylesheet" media="screen and (min-width: 601px)" href="assets/max-width-900.css">
+    <link rel = "stylesheet" media="screen and (min-width: 1201px)" href="assets/max-width-1200.css">
 </head>
 <body>
     <header class="header">
             <div class="container">
                 <div class="header_inner">
                     <div class="header_logo">BOUNCY</div>
+                    <input type="checkbox" id="burger-checkbox" class="burger-checkbox">
+                    <label for="burger-checkbox" class="burger"></label>
                     <nav class="nav">
                         <a class="nav_link" href="#hello">Hello</a>
                         <a class="nav_link" href="#about">About</a>
@@ -92,7 +99,6 @@
                 <button class="section_btn1" href="#">Submit Now</button>
             </div>
         </div>
-        
     </div>
 </section>
 <section id="services" class="section">
@@ -119,18 +125,18 @@
             <div class="infographic">
                 <span class="serv_object">
                     <div class="serv_object_inner">
-                        <h3>80<sub>%</sub></h3>
+                        <h3 class="obj_percent">80<sub>%</sub></h3>
                     </div>
                 </span>
                 <span class="serv_object" style="background: conic-gradient(rgb(26,183,151) 75%,lightgray 25%);">
                     <div class="serv_object_inner">
-                        <h3>75<sub>%</sub></h3>
+                        <h3 class="obj_percent">75<sub>%</sub></h3>
                     </div>
                     
                 </span>
                 <span class="serv_object" style="background: conic-gradient(rgb(26,183,151) 60%,lightgray 40%);">
                     <div class="serv_object_inner">
-                        <h3>60<sub>%</sub></h3>
+                        <h3 class="obj_percent">60<sub>%</sub></h3>
                     </div>
                 </span>
                 <span class="object_subtitle">
@@ -340,7 +346,7 @@
         </div>
         <div class="create_aplication">
             <div class="green_mask"></div>
-            <p class="project_info">Lorem ipsum dolor sit <strong>amet</strong>, c do eiusmod tempor <strong>incididunt</strong> ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <span class="project_info">Lorem ipsum dolor sit <strong>amet</strong>, c do eiusmod tempor <strong>incididunt</strong> ut labore et dolore magna aliqua. Ut enim ad minim veniam.</span>
             <button class="section_btn2" name = "startprj-btn" id = "startprj_btn">Start Project</button>
         </div>
     </div>
